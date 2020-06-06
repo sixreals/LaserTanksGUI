@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Game Setup";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="column"><b>@ViewData["NumPlayers"].ToString() Player Game</b></div>
+    @foreach(var playerName in (string[])ViewData["PlayerNames"])
+    {
+        <div class="column"><b>@playerName</b></div>
+    }
+</div>
+<div class="row">
+    @foreach(int ii in ViewData["NumPlayers"])
+    {
+        <div class="column"><b>@playerName</b></div>
+    }
+</div>
