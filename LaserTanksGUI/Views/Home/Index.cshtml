@@ -3,7 +3,16 @@
 }
 
 <div class="text-center">
-    <form action="Game/NewGame" method="post">
+    <h2>Welcome to Laser Tanks!</h2>
+    <p>Select options below to start</p>
+<
+    <form action="Game/NewGame" method="get" id="newGame">
+        <label for="numPlayers">Choose the number of players</label>
+        <select name="numPlayers" id="numPlayers" form="newGame">
+            <option value="1">1 Player</option>
+            <option value="2">2 Players</option>
+            <option value="3">3 Players</option>
+            <option value="4">4 Players</option>
         <input type="submit" value="Start New Game..."/>
     </form>
 </div>
