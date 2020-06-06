@@ -15053,6 +15053,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/rywalt/Documents/Repositories/Laser Tanks/LaserTanksGUI/LaserTanksGUI/Views/Game/GameSetup.cshtml",
+      "TargetPath": "Views\\Game\\GameSetup.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/rywalt/Documents/Repositories/Laser Tanks/LaserTanksGUI/LaserTanksGUI/Views/Game/RunGame.cshtml",
+      "TargetPath": "Views\\Game\\RunGame.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/rywalt/Documents/Repositories/Laser Tanks/LaserTanksGUI/LaserTanksGUI/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

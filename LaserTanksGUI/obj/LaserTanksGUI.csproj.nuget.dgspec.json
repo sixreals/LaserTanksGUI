@@ -13,6 +13,9 @@
         "packagesPath": "/Users/rywalt/.nuget/packages/",
         "outputPath": "/Users/rywalt/Documents/Repositories/Laser Tanks/LaserTanksGUI/LaserTanksGUI/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/rywalt/.nuget/NuGet/NuGet.Config"
         ],
