@@ -1,6 +1,8 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
+using LaserTanksGUI.Models;
 
 namespace LaserTanksGUI.Controllers
 {
@@ -27,8 +29,18 @@ namespace LaserTanksGUI.Controllers
         public IActionResult CreateGame(params string[] playerNames)
         {
             ViewData["NumPlayers"] = playerNames.Length;
+            List<Player> players = new List<Player>();
+
+            //create each player class
+            foreach(var name in playerNames)
+            {
+                players.Add(new Player(name));
+            }
+
+            Game game = new Game(players);
+
             ViewData["PlayerNames"] = playerNames;
-            return View("RunGame");
+            return View("RunGame", game);
         }
     }
 }
