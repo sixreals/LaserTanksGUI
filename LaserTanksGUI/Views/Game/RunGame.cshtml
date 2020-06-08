@@ -1,0 +1,53 @@
+﻿@model LaserTanksGUI.Models.Game
+
+@{
+    ViewData["Title"] = "Game Setup";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <table class="gameView">
+        <tr>
+            <th class="column"><b>@ViewData["NumPlayers"].ToString() Player Game</b></th>
+            @foreach(var playerName in (string[])ViewData["PlayerNames"])
+            {
+                <th class="column"><b>@playerName</b></th>
+            }
+        </tr>
+        <tr>
+            <th class="column"><p>Health</p></th>
+            @foreach(var p in Model.Players)
+            {
+                <td class="column"><p>@p.Health</p></td>
+            }
+        </tr>
+        <tr>
+            <th class="column"><p>Score</p></th>
+            @foreach(var p in Model.Players)
+            {
+                <td><p>@p.Score</p></td>
+            }
+        </tr>
+        <tr>
+            <th class="column"><p>Health</p></th>
+            @foreach(var p in Model.Players)
+            {
+                <td class="column"><p>@p.Health / @p.MaxHealth</p></td>
+            }
+        </tr>
+        <tr>
+            <th class="column"><p>Kills</p></th>
+            @foreach(var p in Model.Players)
+            {
+                <td class="column"><p>@p.Kills</p></td>
+            }
+        </tr>
+        <tr>
+            <th class="column"><p>Deaths</p></th>
+            @foreach(var p in Model.Players)
+            {
+                <td class="column"><p>@p.Deaths</p></td>
+            }
+        </tr>
+    </table>
+</div>

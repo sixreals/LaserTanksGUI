@@ -25,10 +25,10 @@ namespace LaserTanksGUI.Controllers
         /// </summary>
         /// <param name="playerNames"></param>
         /// <returns></returns>
-        [HttpGet]
-        public IActionResult CreateGame(params string[] playerNames)
+        [HttpPost]
+        public IActionResult CreateGame(List<string> playerNames)
         {
-            ViewData["NumPlayers"] = playerNames.Length;
+            ViewData["NumPlayers"] = playerNames.Count;
             List<Player> players = new List<Player>();
 
             //create each player class
@@ -39,7 +39,6 @@ namespace LaserTanksGUI.Controllers
 
             Game game = new Game(players);
 
-            ViewData["PlayerNames"] = playerNames;
             return View("RunGame", game);
         }
     }

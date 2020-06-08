@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Game Setup";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <form action="CreateGame" method="post">
+        @for(var ii = 1; ii < Convert.ToInt32(ViewData["NumPlayers"]) + 1; ii++)
+        { 
+            <label for=@($"player{ii}")>@($"Player {ii}'s Name")</label><br>
+            <input type="text" name=@($"playerNames[{ii}]") id=@($"playerNames[{ii}]")/><br>
+        }
+        <input type="submit" value="Start Game">
+    </form>
+</div>

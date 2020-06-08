@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FaTDM+O5taSQDYKtOBFdrlCFa2Xu33A4bVgZeSKaUmMkiz5qEfIM3wG7Z6XMR/pdu7UtAHSpg4UL5qwDhUWRTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gamer\\source\\repos\\LaserTanksGUI\\LaserTanksGUI\\LaserTanksGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gamer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

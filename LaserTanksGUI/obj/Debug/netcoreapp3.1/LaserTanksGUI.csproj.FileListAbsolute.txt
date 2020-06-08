@@ -1,0 +1,7 @@
+C:\Users\Gamer\source\repos\LaserTanksGUI\LaserTanksGUI\obj\Debug\netcoreapp3.1\LaserTanksGUI.csprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\LaserTanksGUI\LaserTanksGUI\obj\Debug\netcoreapp3.1\LaserTanksGUI.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\LaserTanksGUI\LaserTanksGUI\obj\Debug\netcoreapp3.1\LaserTanksGUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gamer\source\repos\LaserTanksGUI\LaserTanksGUI\obj\Debug\netcoreapp3.1\LaserTanksGUI.RazorAssemblyInfo.cache
+C:\Users\Gamer\source\repos\LaserTanksGUI\LaserTanksGUI\obj\Debug\netcoreapp3.1\LaserTanksGUI.RazorAssemblyInfo.cs
+C:\Users\Gamer\source\repos\LaserTanksGUI\LaserTanksGUI\obj\Debug\netcoreapp3.1\LaserTanksGUI.AssemblyInfoInputs.cache
+C:\Users\Gamer\source\repos\LaserTanksGUI\LaserTanksGUI\obj\Debug\netcoreapp3.1\LaserTanksGUI.AssemblyInfo.cs
